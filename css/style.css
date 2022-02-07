@@ -1,0 +1,1152 @@
+@font-face {
+  font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+  font-display: swap;
+  src: url("../fonts/AkzidenzGroteskBQCondensedBold.woff2") format("woff2"), url("../fonts/AkzidenzGroteskBQCondensedBold.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Bebas;
+  font-display: swap;
+  src: url("../fonts/BebasNeueRegular.woff2") format("woff2"), url("../fonts/BebasNeueRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-display: swap;
+  src: url("../fonts/PTSans.woff2") format("woff2"), url("../fonts/PTSans.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  transition: 0.5s;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 24px 0px 0px 0px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+}
+
+.header {
+  background: #fff;
+  padding: 0px 10px 30px 10px;
+}
+
+.container {
+  max-width: 880px;
+  margin: 0px auto;
+}
+
+.header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-top__langs {
+  display: flex;
+  flex-direction: row;
+}
+.header-top__langs-item a {
+  text-decoration: none;
+  color: #000000;
+  font-family: Bebas;
+  font-size: 10px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0px 10px 0px 0px;
+}
+.header-top__langs-item-active a {
+  background: #000;
+  color: #fff;
+  padding: 2px 4px 2px 4px;
+}
+.header-top__logo a {
+  color: #000000;
+  text-decoration: none;
+}
+.header-top__order a {
+  width: 93px;
+  height: 11px;
+  color: #000000;
+  font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.header-top__logo {
+  width: 41px;
+  height: 9px;
+  color: #000000;
+  font-family: Bebas;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 0px 0px 0px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+}
+.header-top__logo-ny {
+  font-style: normal;
+  letter-spacing: 8px;
+  line-height: normal;
+}
+.header-top__logo-cs {
+  font-style: normal;
+  letter-spacing: 2.72px;
+  line-height: normal;
+}
+
+.header-main a:hover {
+  text-decoration: underline;
+}
+.header-main__ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-main__li-left-ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-main__li-left-ul .header-main__item {
+  margin: 0px 46px 0px 0px;
+}
+.header-main__li-right-ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header-main__li-right-ul .header-main__item {
+  margin: 0px 0px 0px 46px;
+}
+.header-main__item a {
+  text-decoration: none;
+  width: 41px;
+  height: 11px;
+  color: #000000;
+  font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  line-height: normal;
+}
+.header-main__item-logo {
+  max-width: 212px;
+  max-height: 89px;
+}
+.header-main__item-logo img {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.header-bootom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header-bootom a {
+  padding: 10px 0px 0px 20px;
+  text-decoration: none;
+  width: 88px;
+  height: 8px;
+  color: #000000;
+  font-family: Bebas;
+  font-size: 8px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 8px;
+  line-height: normal;
+}
+
+.main {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.private {
+  display: flex;
+  flex-direction: row;
+  background: #000;
+  margin: 0px 0px 75px 0px;
+}
+.private__column {
+  display: flex;
+  flex: 0 0 50%;
+}
+.private__body-wrapper {
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  padding: 75px 20px 75px 60px;
+  max-width: 305px;
+}
+.private__img {
+  display: flex;
+  background: url("../img/private/01.jpg") no-repeat;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1 1 auto;
+}
+.private__title {
+  color: #ffffff;
+  font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 0px 0px 31px 0px;
+}
+.private__text {
+  color: #ffffff;
+  font-family: "PT Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  margin: 0px 0px 55px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.private__btns {
+  display: flex;
+  flex-direction: row;
+}
+
+.quote, .btn-w {
+  width: 155px;
+  height: 50px;
+  background-color: #ffffff;
+  border: 0px;
+  color: #000000;
+  font-family: Bebas;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+.quote:hover {
+  background-color: #dbdbdb;
+  transition: 0.3s;
+}
+
+.btn-w:hover {
+  background-color: #dbdbdb;
+  transition: 0.3s;
+}
+
+.view {
+  width: 92px;
+  height: 16px;
+  color: #fffffe;
+  font-family: Bebas;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 18px 14px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products {
+  margin: 0px 0px 79px 0px;
+}
+.products__wraper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+.products__column {
+  flex: 0 0 25%;
+}
+.products__item {
+  display: flex;
+  flex-direction: column;
+  max-Width: 220px;
+  padding: 0px 0px 0px 0px;
+  height: 100%;
+}
+.products__item-img {
+  max-width: 220px;
+  max-height: 225px;
+}
+.products__item-img img {
+  flex: 1 1 auto;
+}
+.products__item-title {
+  max-width: 130px;
+  color: #000000;
+  font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  padding: 25px 0px 36px 6px;
+}
+.products__item-text {
+  max-width: 190px;
+  color: #000000;
+  font-family: "PT Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  padding: 0px 0px 32px 7px;
+  flex: 1 1 auto;
+  height: auto;
+}
+.products__item-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 0px 4px;
+}
+
+.btn-b {
+  background: #000;
+  color: #fff;
+}
+
+.view-b {
+  padding: 29px 0px 0px 0px;
+  justify-content: start;
+  color: #000;
+}
+
+.choose {
+  display: flex;
+  flex-direction: column;
+}
+.choose__top {
+  display: flex;
+  flex-direction: row;
+  background: #000;
+  align-items: stretch;
+}
+.choose__top-column {
+  display: flex;
+  flex: 0 0 50%;
+  min-height: 150px;
+}
+.choose__top-body {
+  color: #ffffff;
+  font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  max-width: 440px;
+  margin: 0px 0px 0px auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1 1 auto;
+  padding: 0px 60px 0px 0px;
+}
+.choose__img {
+  display: flex;
+  background: url(../img/why/01.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1 1 auto;
+}
+.choose__body {
+  background: #ebebeb;
+}
+
+.advantages {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 5px 0px 5px;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.advantages__item {
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 50%;
+  padding: 0px 0px 50px 0px;
+}
+.advantages__item-img {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.advantages__item-body {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  padding: 0px 0px 0px 12px;
+  justify-content: space-between;
+}
+.advantages__item-title {
+  color: #000000;
+  font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+.advantages__item-text {
+  color: #000000;
+  font-family: "PT Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+
+.hello {
+  width: 100%;
+  padding: 82px 10px 0px 0px;
+}
+.hello__top {
+  padding: 0px 0px 28px 10px;
+}
+.hello__top-title {
+  color: #000000;
+  font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.hello__top-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.hello__top-body-column {
+  padding: 35px 0px 0px 0px;
+  flex: 0 0 50%;
+}
+.hello__top-body-item {
+  display: flex;
+  flex-direction: row;
+}
+.hello__top-body-item-img {
+  padding: 5px 10px 0px 0px;
+}
+.hello__top-body-item-text a {
+  color: #000000;
+  font-family: "PT Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-decoration: none;
+}
+.hello__body {
+  background: #000;
+  display: flex;
+  flex-direction: row;
+  background: #000;
+  margin: 0px 0px 0px 0px;
+}
+.hello__body-column {
+  display: flex;
+  flex: 0 0 50%;
+}
+.hello__body-img {
+  height: 100%;
+  width: 100%;
+}
+.hello__body-wrapper {
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  padding: 54px 20px 50px 60px;
+}
+.hello__body-title {
+  color: #ffffff;
+  font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  padding: 0px 0px 28px 0px;
+}
+.hello__body-forms {
+  display: flex;
+  flex-direction: column;
+}
+.hello__body-forms p {
+  padding: 0px 0px 25px 0px;
+  font-family: "PT Sans";
+}
+.hello__body-forms p input {
+  width: 365px;
+  height: 50px;
+  border: 2px solid #959595;
+  background: #252525;
+  padding: 0px 10px 0px 18px;
+}
+.hello__body-forms p input:focus {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 0%;
+}
+.hello__body-forms p textarea {
+  width: 365px;
+  min-height: 100px;
+  border: 2px solid #959595;
+  background: #252525;
+  padding: 10px 10px 0px 18px;
+}
+.hello__body-forms p textarea:focus {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 0%;
+}
+.hello__body-btns {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 10px 0px 0px;
+}
+
+.socials {
+  padding: 0px 31px 0px 0px;
+}
+
+.socials img {
+  max-width: 24px;
+  max-height: 24px;
+  padding: 0px 31px 0px 0px;
+}
+
+.footer {
+  padding: 0px 10px 0px 10px;
+}
+.footer__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 125px;
+}
+.footer__logo {
+  max-width: 156px;
+  max-height: 65px;
+}
+.footer__logo img {
+  display: flex;
+}
+.footer__column {
+  display: flex;
+}
+
+.PrimeOne {
+  color: #4d4d4d;
+  font-family: "PT Sans";
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  text-align: left;
+}
+
+.Terms a {
+  font-family: "PT Sans";
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-decoration: underline;
+  color: #000;
+}
+
+@media (max-width: 950px) {
+  .hello__body-wrapper {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    padding: 27px 10px 25px 30px;
+  }
+  .hello__body-forms p input {
+    width: 335px;
+    height: 50px;
+    border: 2px solid #959595;
+    background: #252525;
+    padding: 0px 10px 0px 18px;
+  }
+  .hello__body-forms p textarea {
+    width: 335px;
+    min-height: 100px;
+    border: 2px solid #959595;
+    background: #252525;
+    padding: 10px 10px 0px 18px;
+  }
+}
+@media (max-width: 900px) {
+  .products__wraper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 150px 0px 150px;
+  }
+  .products__column {
+    max-Width: 220px;
+    flex: 0 0 50%;
+    padding: 0px 0px 20px 0px;
+  }
+
+  .choose__top-column {
+    min-height: 100px;
+  }
+  .choose__top-body {
+    color: #ffffff;
+    font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 5px;
+    max-width: 440px;
+    padding: 0px 30px 0px 0px;
+  }
+}
+@media (max-width: 851px) {
+  .private__title {
+    color: #ffffff;
+    font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0px 0px 31px 0px;
+  }
+  .private__body-wrapper {
+    padding: 30px 20px 30px 30px;
+  }
+
+  .header-main__li-left-ul .header-main__item {
+    margin: 0px 26px 0px 0px;
+  }
+
+  .header-main__li-right-ul .header-main__item {
+    margin: 0px 0px 0px 26px;
+  }
+
+  .hello__top {
+    padding: 0px 0px 28px 10px;
+  }
+  .hello__body {
+    flex-direction: column;
+  }
+  .hello__body-img {
+    display: none;
+    width: 0px;
+    height: 0px;
+  }
+  .hello__body-wrapper {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    padding: 54px 20px 50px 60px;
+  }
+  .hello__body-forms p input {
+    width: 375px;
+    height: 50px;
+    border: 2px solid #959595;
+    background: #252525;
+    padding: 0px 10px 0px 18px;
+  }
+  .hello__body-forms p textarea {
+    width: 375px;
+    min-height: 100px;
+    border: 2px solid #959595;
+    background: #252525;
+    padding: 10px 10px 0px 18px;
+  }
+}
+@media (max-width: 768px) {
+  .advantages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .advantages__item-body {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding: 0px 0px 0px 12px;
+    justify-content: space-between;
+  }
+
+  .header-main__li-left-ul {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .header-main__li-left-ul .header-main__item {
+    margin: 20px 0px 0px 20px;
+  }
+
+  .header-main__li-right-ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-main__li-right-ul .header-main__item {
+    margin: 20px 20px 0px 0px;
+  }
+
+  .header-top__langs {
+    margin: 0px 0px 0px 19px;
+  }
+
+  .header-top__order {
+    margin: 0px 22px 0px 0px;
+  }
+
+  .header-top__logo {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 75px;
+    font-size: 10.5px;
+  }
+
+  .header {
+    padding: 0px 0px 20px 0px;
+  }
+
+  .header-bootom {
+    padding: 21px 0px 0px 0px;
+    margin: -5px 0px 0px -35px;
+  }
+  .header-bootom a {
+    font-size: 11px;
+    padding: 0px 0px 10px 20px;
+  }
+
+  .private__text {
+    line-height: 20px;
+    margin: 0px 0px 55px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 250px;
+  }
+
+  .products__wraper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 70px 0px 70px;
+  }
+  .products__column {
+    max-Width: 220px;
+    flex: 0 0 50%;
+  }
+
+  .choose__top-column {
+    min-height: 100px;
+  }
+  .choose__top-body {
+    color: #ffffff;
+    font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 5px;
+    max-width: 440px;
+    padding: 0px 15px 0px 0px;
+  }
+
+  .hello {
+    padding: 50px 10px 0px 0px;
+  }
+  .hello__top {
+    padding: 0px 0px 28px 10px;
+  }
+  .hello__top-title {
+    color: #000000;
+    font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  .hello__top-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .hello__top-body-column {
+    padding: 35px 0px 0px 0px;
+    flex: 0 0 100%;
+    max-width: 320px;
+  }
+  .hello__top-body-item {
+    display: flex;
+    flex-direction: row;
+  }
+  .hello__top-body-item-img {
+    padding: 5px 10px 0px 0px;
+    display: flex;
+  }
+  .hello__top-body-item-text a {
+    color: #000000;
+    font-family: "PT Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    text-decoration: none;
+  }
+
+  .socials img {
+    padding: 0px 31px 0px 0px;
+  }
+}
+@media (max-width: 650px) {
+  .footer {
+    padding: 0px 10px 0px 10px;
+  }
+  .footer__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .footer__logo {
+    max-width: 156px;
+    max-height: 65px;
+  }
+  .footer__logo img {
+    display: flex;
+  }
+  .footer__column {
+    display: flex;
+  }
+  .footer__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 600px) {
+  .private {
+    flex-direction: column;
+  }
+  .private__body-wrapper {
+    padding: 20px 10px 20px 20px;
+  }
+  .private__column {
+    flex: 1 1 100%;
+  }
+  .private__text {
+    line-height: 20px;
+    max-width: auto;
+    margin: 0px 0px 35px 0px;
+  }
+
+  .products__wraper {
+    padding: 0px 90px 0px 90px;
+  }
+  .products__column {
+    padding: 0px 0px 30px 0px;
+    margin: 0px 0px 30px 0px;
+    border-bottom: 1px solid black;
+  }
+  .products__column:last-child {
+    border-bottom: 0px solid black;
+  }
+
+  .choose {
+    display: flex;
+    flex-direction: column;
+  }
+  .choose__top {
+    display: flex;
+    flex-direction: column;
+    background: #000;
+  }
+  .choose__top-column {
+    flex: 1 1 100%;
+    min-height: 0px;
+  }
+  .choose__top-body {
+    color: #ffffff;
+    font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    width: 100%;
+    justify-content: flex-start;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 15px 15px 15px;
+    flex: 1 1 auto;
+  }
+  .choose__img {
+    flex: 0 0 auto;
+    display: none;
+    width: 0px;
+    height: 0px;
+  }
+
+  .header-main__ul {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .header-main__li-left-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .header-main__li-left-ul .header-main__item {
+    margin: 20px 0px 0px 40px;
+  }
+  .header-main__li-right-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .header-main__li-right-ul .header-main__item {
+    margin: 20px 0px 0px 0px;
+  }
+  .header-main__li-center-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-main__item-logo {
+    max-width: 212px;
+    max-height: 89px;
+    padding: 0px 0px 0px 15px;
+  }
+  .header-main__item-logo img {
+    display: flex;
+    max-width: 150px;
+    max-height: 50px;
+    flex: 1 1 auto;
+  }
+  .header-main .choose__top-column {
+    min-height: 100px;
+  }
+  .header-main .choose__top-body {
+    color: #ffffff;
+    font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 5px;
+    max-width: 440px;
+    padding: 0px 15px 0px 0px;
+  }
+
+  .header-main__ul-item2 {
+    order: 1;
+  }
+
+  .header-main__ul-item1 {
+    order: 2;
+  }
+
+  .header-main__ul-item3 {
+    order: 3;
+  }
+
+  .header-top__order {
+    padding: 3px 0px 0px 0px;
+  }
+  .header-top__order a {
+    font-size: 13px;
+  }
+  .header-top__logo {
+    padding: 10px 0px 0px 0px;
+    margin: 0px auto;
+  }
+  .header-top__langs a {
+    font-size: 11px;
+  }
+
+  .header-bootom {
+    padding: 7px 0px 0px 20px;
+  }
+}
+@media (max-width: 500px) {
+  .hello__body-wrapper {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    padding: 27px 10px 25px 30px;
+  }
+  .hello__body-forms p input {
+    width: 320px;
+    height: 50px;
+    border: 2px solid #959595;
+    background: #252525;
+    padding: 0px 10px 0px 18px;
+  }
+  .hello__body-forms p textarea {
+    width: 320px;
+    min-height: 100px;
+    border: 2px solid #959595;
+    background: #252525;
+    padding: 10px 10px 0px 18px;
+  }
+}
+@media (max-width: 425px) {
+  .advantages__item-body {
+    display: flex;
+    flex-direction: column;
+    max-width: 230px;
+    padding: 0px 0px 0px 12px;
+    justify-content: space-between;
+  }
+  .advantages__item-title {
+    color: #000000;
+    font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    padding: 0px 0px 10px 0px;
+  }
+  .advantages__item-text {
+    color: #000000;
+    font-family: "PT Sans";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+  }
+  .advantages__item-img {
+    min-width: 100px;
+    min-height: 140px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hello__body-wrapper {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    padding: 17px 5px 17px 15px;
+  }
+  .hello__body-forms p input {
+    width: 250px;
+    height: 40px;
+    border: 2px solid #959595;
+    background: #252525;
+    padding: 0px 10px 0px 18px;
+  }
+  .hello__body-forms p textarea {
+    width: 250px;
+    min-height: 60px;
+    border: 2px solid #959595;
+    background: #252525;
+    padding: 10px 10px 0px 18px;
+  }
+}
+@media (max-width: 320px) {
+  .header-main__li-left-ul {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .header-main__li-left-ul .header-main__item {
+    margin: 20px 0px 0px 0px;
+  }
+
+  .header-main__li-right-ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-main__li-right-ul .header-main__item {
+    margin: 20px 0px 0px 0px;
+  }
+
+  .header-top__order a {
+    font-size: 13px;
+  }
+
+  .header-top__logo {
+    padding: 15px 0px 0px 0px;
+  }
+}
